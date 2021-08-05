@@ -35,6 +35,7 @@ gem 'activeadmin'
 gem "mini_magick"
 gem 'devise'
 gem 'devise-jwt'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.4'
@@ -52,7 +53,7 @@ group :development do
   gem 'pry', '~> 0.13.1'
 
   gem "letter_opener"
-
+  gem 'seed_dump'
 end
 
 group :test do

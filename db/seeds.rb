@@ -73,19 +73,3 @@ Product.create!([
   {product_name: "Chocolina", price: "2.99", description: "<p>3 x 3 inch. Transparent border, waterproof and matte finish.</p>\r\n<p>Yes, the hearts are also included ;)</p>\r\n", image_file_name: "IMG_0978.PNG", image_content_type: "image/png", image_file_size: 303063, image_updated_at: "2021-05-04 21:31:10", page_name: "chocolina"},
   {product_name: "Fresalina", price: "2.99", description: "<p>3 x 3 inch. Transparent border, waterproof and matte finish.</p>\r\n<p>Yes, the hearts are also included ;)</p>\r\n", image_file_name: "Untitled_Artwork.jpg", image_content_type: "image/jpeg", image_file_size: 269233, image_updated_at: "2021-05-04 21:32:04", page_name: "fresalina"}
 ])
-
-ActiveStorage::Blob.create!([
-  {key: "e0xm8t3lp3gslwv8nvgk1vullso8", filename: "IMG_5963.PNG", content_type: "image/png", metadata: {"identified"=>true, "width"=>1620, "height"=>2160, "analyzed"=>true}, byte_size: 7686601, checksum: "0zS8FBbQhqeImhrXzMS/Ow=="},
-  {key: "f91tfplah73rf7qhsn5szqogjlt8", filename: "IMG_1813.JPG", content_type: "image/jpeg", metadata: {"identified"=>true, "width"=>1884, "height"=>1272, "analyzed"=>true}, byte_size: 203397, checksum: "NpeZyB3B5zSnZ6vFnYbYSQ=="},
-  {key: "ldhqt53ko6mqdld7at5q3oybf8ly", filename: "IMG_1532.JPG", content_type: "image/jpeg", metadata: {"identified"=>true, "width"=>2048, "height"=>2048, "analyzed"=>true}, byte_size: 271214, checksum: "U3cEeAzo6JGeHlFC28Pumw=="},
-  {key: "3v9xed48bfuti4huifann5chg8ky", filename: "IMG_1226.jpeg", content_type: "image/jpeg", metadata: {"identified"=>true, "width"=>1024, "height"=>1024, "analyzed"=>true}, byte_size: 98532, checksum: "qjfs+/SwA4PT+D7ecnCG6w=="},
-  {key: "pa8g4m5rbp5n5p0m93v76ncn1amm", filename: "IMG_0971.jpg", content_type: "image/jpeg", metadata: {"identified"=>true, "width"=>2842, "height"=>3367, "analyzed"=>true}, byte_size: 2572218, checksum: "tdan8nUWyDwKPgU4bbmRvw=="},
-  {key: "5raf0q70kd5w0r3v3083wgnjhhji", filename: "IMG_0313.PNG", content_type: "image/png", metadata: {"identified"=>true, "width"=>1620, "height"=>1210, "analyzed"=>true}, byte_size: 5429140, checksum: "2QTyaiuGOifGmuz6aU9q+A=="},
-  {key: "9imyr5brk50esjtkxxhn1kwfws7y", filename: "IMG_5963.PNG", content_type: "image/png", metadata: {"identified"=>true, "width"=>1620, "height"=>2160, "analyzed"=>true}, byte_size: 7686601, checksum: "0zS8FBbQhqeImhrXzMS/Ow=="},
-  {key: "84p40cbopqyfkdi1at419wrtfjlt", filename: "IMG_5001.JPG", content_type: "image/jpeg", metadata: {"identified"=>true, "width"=>1284, "height"=>1998, "analyzed"=>true}, byte_size: 492411, checksum: "zhYZkSSFnIVPE94XSuC3FA=="}
-])
-ActiveStorage::Attachment.create!([
-  {name: "images", record_type: "Content", record_id: 2, blob_id: 7},
-  {name: "images", record_type: "Content", record_id: 3, blob_id: 11},
-  {name: "images", record_type: "Content", record_id: 1, blob_id: 12}
-])

@@ -15,11 +15,13 @@ Rails.application.routes.draw do
       sessions: 'sessions',
       registrations: 'registrations'
     }
-    
+
     resources :orders
 
-    devise_scope :user do
-      get 'account'    => 'registrations#show'
-   end
+    get 'account'    => 'accounts#show'
+    
+   #  devise_scope :user do
+   #    get 'account'    => 'accounts#show'
+   # end
 
 end
